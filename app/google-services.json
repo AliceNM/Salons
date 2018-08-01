@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "586628374096",
+    "firebase_url": "https://salons-b6d15.firebaseio.com",
+    "project_id": "salons-b6d15",
+    "storage_bucket": "salons-b6d15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586628374096:android:1bbb3c3c5016e883",
+        "android_client_info": {
+          "package_name": "com.example.alice.salons"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586628374096-695d852hf115c0ms75crnn7ke2k6usnl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZYpOTiL-edPyqWtjgltz5nlgBFLYVWS4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Salons</string>
+
+    <string name="singin_with_google">SingIn with Google!</string>
+    <string name="action_settings">Action Settings</string>
+    <string name="sign_out">SignOut</string>
+</resources>
