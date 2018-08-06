@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.alice.salons">
+    package="com.example.alice.salons.Activity">
 
     <application
         android:allowBackup="true"
@@ -9,13 +9,34 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SignIn">
+        <activity android:name=".Activity.SignIn">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".Activity.SalonActivity"
+            android:label="Salon Activity"
+            />
+        <activity android:name=".Activity.SalonRecyclerActivity"
+            android:label="Salon Details"
+            />
+        <activity android:name=".Activity.SalonAgentActivity"
+            android:label="Salon Agent Details"
+            />
+        <activity android:name=".Activity.BarberShopActivity"
+            android:label="Barber Shop"
+            />
+        <activity android:name=".Activity.BarberAgentActivity"
+            android:label="Barber Shop Agent"
+            />
+        <activity android:name=".Activity.BarberRecyclerActivity"
+            android:label="Barbershop Details"
+            ></activity>
+
+
     </application>
 
 </manifest>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Activity.MainActivity">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.AppBarLayout>
+
+
+        <TextView
+            android:id="@+id/txt_welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome To All Things Beauty"
+            app:layout_constraintTop_toBottomOf="@+id/app"
+            android:textSize="21sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_margin="12dp"
+            />
+
+        <ImageView
+            android:id="@+id/img_salon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/salon"
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="36dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_welcome"/>
+
+        <TextView
+            android:id="@+id/txt_salon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:text="Salon"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@id/img_salon"
+            app:layout_constraintLeft_toLeftOf="@id/img_salon"
+            app:layout_constraintRight_toRightOf="@id/img_salon"/>
+
+
+        <ImageView
+            android:id="@+id/img_trend"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/trend"
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginHorizontal="36dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_welcome"/>
+
+
+        <TextView
+            android:id="@+id/txt_trend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:text="Trending"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@id/img_trend"
+            app:layout_constraintLeft_toLeftOf="@id/img_trend"
+            app:layout_constraintRight_toRightOf="@id/img_trend"/>
+
+        <ImageView
+            android:id="@+id/img_barber"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/scissor_and_comb"
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="36dp"
+            app:layout_constraintTop_toBottomOf="@id/txt_trend"
+            app:layout_constraintLeft_toLeftOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/txt_barber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:text="Barber"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@id/img_barber"
+            app:layout_constraintLeft_toLeftOf="@id/img_barber"
+            app:layout_constraintRight_toRightOf="@id/img_barber"/>
+
+        <ImageView
+            android:id="@+id/img_offers"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/gift"
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginHorizontal="36dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_trend"/>
+
+
+        <TextView
+            android:id="@+id/txt_offers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:text="Offers"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@id/img_offers"
+            app:layout_constraintLeft_toLeftOf="@id/img_offers"
+            app:layout_constraintRight_toRightOf="@id/img_offers"/>
+
+        <ImageView
+            android:id="@+id/img_school"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/teacher"
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="36dp"
+            app:layout_constraintTop_toBottomOf="@id/txt_barber"
+            app:layout_constraintLeft_toLeftOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/txt_school"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:text="Beauty School"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@id/img_school"
+            app:layout_constraintLeft_toLeftOf="@id/img_school"
+            app:layout_constraintRight_toRightOf="@id/img_school"/>
+
+        <ImageView
+            android:id="@+id/img_shop"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/shop"
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginHorizontal="36dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_offers"/>
+
+
+        <TextView
+            android:id="@+id/txt_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:text="Beauty Shop"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@id/img_shop"
+            app:layout_constraintLeft_toLeftOf="@id/img_shop"
+            app:layout_constraintRight_toRightOf="@id/img_shop"/>
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
