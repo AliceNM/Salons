@@ -1,7 +1,9 @@
-package com.example.alice.salons;
+package com.example.alice.salons.Activity.Activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.alice.salons.Activity.R;
 
 public class SignIn extends AppCompatActivity {
 
