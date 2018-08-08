@@ -17,6 +17,9 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".Activity.MainActivity"
+            android:label="Salon Activity" />
+
         <activity android:name=".Activity.SalonActivity"
             android:label="Salon Activity"
             />
