@@ -9,37 +9,36 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.SignIn">
+        <activity android:name=".Activity.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".Activity.MainActivity"
+        <activity
+            android:name=".Activity.MainActivity"
             android:label="Salon Activity" />
-
-        <activity android:name=".Activity.SalonActivity"
-            android:label="Salon Activity"
-            />
-        <activity android:name=".Activity.SalonRecyclerActivity"
-            android:label="Salon Details"
-            />
-        <activity android:name=".Activity.SalonAgentActivity"
-            android:label="Salon Agent Details"
-            />
-        <activity android:name=".Activity.BarberShopActivity"
-            android:label="Barber Shop"
-            />
-        <activity android:name=".Activity.BarberAgentActivity"
-            android:label="Barber Shop Agent"
-            />
-        <activity android:name=".Activity.BarberRecyclerActivity"
-            android:label="Barbershop Details"
-            ></activity>
-
-
+        <activity
+            android:name=".Activity.SalonActivity"
+            android:label="Salon Activity" />
+        <activity
+            android:name=".Activity.SalonRecyclerActivity"
+            android:label="Salon Details" />
+        <activity
+            android:name=".Activity.SalonAgentActivity"
+            android:label="Salon Agent Details" />
+        <activity
+            android:name=".Activity.BarberShopActivity"
+            android:label="Barber Shop" />
+        <activity
+            android:name=".Activity.BarberAgentActivity"
+            android:label="Barber Shop Agent" />
+        <activity
+            android:name=".Activity.BarberRecyclerActivity"
+            android:label="Barbershop Details" />
+        <activity android:name=".Activity.SignUpActivity" />
+        <activity android:name=".Activity.ResetPasswordActivity"></activity>
     </application>
 
 </manifest>
