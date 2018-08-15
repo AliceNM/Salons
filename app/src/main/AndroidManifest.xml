@@ -38,7 +38,11 @@
             android:name=".Activity.BarberRecyclerActivity"
             android:label="Barbershop Details" />
         <activity android:name=".Activity.SignUpActivity" />
-        <activity android:name=".Activity.ResetPasswordActivity"></activity>
+        <activity android:name=".Activity.ResetPasswordActivity" />
+        <activity
+            android:name="com.example.alice.salons.ToolBar"
+            android:label="@string/title_activity_tool_bar"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
