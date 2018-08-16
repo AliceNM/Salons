@@ -106,9 +106,16 @@ public class LoginActivity extends AppCompatActivity {
                                     startActivity(intent);
                                     finish();
                                 }
+
+                                auth = FirebaseAuth.getInstance();
+                                if (auth.getCurrentUser() != null) {
+                                    // User is logged in
+                                }
                             }
                         });
             }
         });
     }
+
+
 }
